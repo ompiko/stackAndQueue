@@ -18,5 +18,9 @@ public class QueueMain {
         lQ.displayQueue();
         lQ.dequeue();
         lQ.displayQueue();
+        System.out.println(lQ.isEmpty());
+        System.out.println(lQ.peek());
+        lQ.size();
+//        System.out.println(lQ.size());
     }
 }

@@ -11,8 +11,8 @@ package stack;
  */
 public class stack {
     private int top;
-    private int capacity;
-    private char[] array;
+    private final int capacity;
+    private final char[] array;
 
     public stack(int capacity) {
         this.capacity = capacity;

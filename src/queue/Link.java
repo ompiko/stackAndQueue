@@ -5,7 +5,7 @@ package queue;
  * @author ASUS
  */
 public class Link {
-    long dData;
+    public long dData;
     Link next;
     
     Link(long d){

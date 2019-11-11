@@ -4,9 +4,8 @@ package queue;
  *
  * @author ASUS
  */
-public class LinkQueue {
-    private FirstLastList theList;
-
+public class LinkQueue{
+    private final FirstLastList theList;
     public LinkQueue() {
         theList = new FirstLastList();
     }
@@ -22,5 +21,12 @@ public class LinkQueue {
     public void displayQueue(){
         System.out.print("Queue head->tail: ");
         theList.displayList();
+    }
+    public int peek(){
+        return theList.peek();
+    }
+    public void size(){
+        System.out.println("Size of queue:");
+        theList.size();
     }
 }
