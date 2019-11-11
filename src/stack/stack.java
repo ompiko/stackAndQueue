@@ -7,7 +7,7 @@ package stack;
 
 /**
  *
- * @author ASUS
+ * @author omPiko
  */
 public class stack {
     private int top;

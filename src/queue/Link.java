@@ -2,7 +2,7 @@ package queue;
 
 /**
  *
- * @author ASUS
+ * @author omPiko
  */
 public class Link {
     public long dData;

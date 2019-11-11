@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author ASUS
+ * @author omPiko
  */
 public class stackMain {
 
